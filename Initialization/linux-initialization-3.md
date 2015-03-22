@@ -9,7 +9,7 @@ This is the third part of the Linux kernel initialization process series. In the
 Again boot_params
 --------------------------------------------------------------------------------
 
-In the previous part we stopped at the setting Interrupt Descriptor Table and loading it in the `IDTR` register. In the next step after we this we can see call of the `copy_bootdata` function:
+In the previous part we stopped at setting Interrupt Descriptor Table and loading it in the `IDTR` register. In the next step after we this we can see call of the `copy_bootdata` function:
 
 ```C
 copy_bootdata(__va(real_mode_data));
