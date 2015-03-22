@@ -121,7 +121,7 @@ ENTRY(clear_page)
 	ENDPROC(clear_page)
 ```
 
-As you can understart from the function name it clears or fills with zeros page tables. First of all note that this function starts with the `CFI_STARTPROC` and `CFI_ENDPROC` which are expands to GNU assembly directives:
+As you can understand from the function name it clears or fills with zeros page tables. First of all note that this function starts with the `CFI_STARTPROC` and `CFI_ENDPROC` which are expanded to GNU assembly directives:
 
 ```C
 #define CFI_STARTPROC           .cfi_startproc
